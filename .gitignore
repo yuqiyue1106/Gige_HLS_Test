@@ -1,0 +1,33 @@
+# Vivado transient / log files (regenerated every session)
+# Note: ip_upgrade.log is intentionally tracked (it's a project file, not a session log).
+vivado_*.log
+vivado_*.jou
+vivado_*.str
+vivado_*.backup
+vivado_*.backup.jou
+vivado_*.backup.log
+vivado_*.pb
+vivado_*.dcp
+vivado_*.zip
+vivado_*.ltx
+*.jou
+*.str
+*.backup
+*.backup.jou
+*.backup.log
+*.pb
+*.dcp
+*.zip
+*.ltx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

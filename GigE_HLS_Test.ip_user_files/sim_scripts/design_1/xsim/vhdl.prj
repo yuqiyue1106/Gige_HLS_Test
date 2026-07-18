@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_psr_100m_0_2/sim/design_1_psr_100m_0.vhd" \
+"../../../bd/design_1/ip/design_1_psr_125m_0_2/sim/design_1_psr_125m_0.vhd" \
+"../../../bd/design_1/ip/design_1_psr_156m_0_2/sim/design_1_psr_156m_0.vhd" \
+"../../../bd/design_1/ip/design_1_psr_200m_0_2/sim/design_1_psr_200m_0.vhd" \
+"../../../bd/design_1/ip/design_1_smartconnect_0_0_3/bd_0/ip/ip_1/sim/bd_48ac_psr_aclk_0.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,15 @@
++===============================+===============================+====================================================================================================+
+| Launch Setup Clock            | Launch Hold Clock             | Pin                                                                                                |
++===============================+===============================+====================================================================================================+
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[8]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[6]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[7]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[5]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[0]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[4]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[3]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[2]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[9]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/wr_ptr_gray_sync1_reg_reg[1]/D |
+| clk_out1_design_1_clk_wiz_0_0 | clk_out1_design_1_clk_wiz_0_0 | design_1_i/gige_dual_speed_top_0/inst/u_1g_to_64b_adapter/fifo_inst/m_rst_sync2_reg_reg/D          |
++-------------------------------+-------------------------------+----------------------------------------------------------------------------------------------------+

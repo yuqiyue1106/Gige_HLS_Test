@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Windows11 pro" Host="REED-MVOT" Pid="38428" HostCore="24" HostMemory="068464029696">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Windows11 pro" Host="REED-MVOT" Pid="4680" HostCore="24" HostMemory="068464029696">
+    </Process>
+</ProcessHandle>

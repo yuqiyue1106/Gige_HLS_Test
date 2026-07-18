@@ -1,0 +1,365 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.2 (64-bit)
+# SW Build 6060944 on Thu Mar 06 19:10:01 MST 2025
+# IP Build 6050500 on Thu Mar  6 23:33:39 MST 2025
+# SharedData Build 6060542 on Thu Mar 06 10:31:07 MST 2025
+# Start of session at: Fri Jul 17 21:02:23 2026
+# Process ID         : 42868
+# Current directory  : D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1
+# Command line       : vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file           : D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/design_1_wrapper.vds
+# Journal file       : D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1\vivado.jou
+# Running On         : REED-MVOT
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700F
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 68464 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 72758 MB
+# Available Virtual  : 35436 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 620.230 ; gain = 190.582
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Projects/FPGA_projects/IPCores'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/2024.2.2/Vivado/2024.2/data/ip'.
+Command: synth_design -top design_1_wrapper -part xczu3eg-sfvc784-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sfvc784-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 46268
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1819.262 ; gain = 173.539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_clk_conv_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_axi_clk_conv_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_clk_conv_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_axi_clk_conv_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_axi_clk_conv_0_0' is unconnected for instance 'axi_clk_conv_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:164]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_axi_clk_conv_0_0' is unconnected for instance 'axi_clk_conv_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:164]
+WARNING: [Synth 8-7023] instance 'axi_clk_conv_0' of module 'design_1_axi_clk_conv_0_0' has 42 connections declared, but only 40 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:164]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_data_fifo_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_axis_data_fifo_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_data_fifo_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_axis_data_fifo_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_dwidth_converter_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_axis_dwidth_converter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_dwidth_converter_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_axis_dwidth_converter_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_brenner_accel_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_brenner_accel_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_brenner_accel_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_brenner_accel_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_brenner_accel_0_0' is unconnected for instance 'brenner_accel_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:232]
+WARNING: [Synth 8-7023] instance 'brenner_accel_0' of module 'design_1_brenner_accel_0_0' has 29 connections declared, but only 28 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:232]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'design_1_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:261]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'design_1_clk_wiz_0_0' has 5 connections declared, but only 4 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:261]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_1_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_clk_wiz_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_1_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_clk_wiz_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'design_1_clk_wiz_1_0' is unconnected for instance 'clk_wiz_1' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:266]
+WARNING: [Synth 8-7023] instance 'clk_wiz_1' of module 'design_1_clk_wiz_1_0' has 3 connections declared, but only 2 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:266]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_2_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_clk_wiz_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_2_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_clk_wiz_2_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'design_1_clk_wiz_2_0' is unconnected for instance 'clk_wiz_2' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:269]
+WARNING: [Synth 8-7023] instance 'clk_wiz_2' of module 'design_1_clk_wiz_2_0' has 4 connections declared, but only 3 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:269]
+INFO: [Synth 8-6157] synthesizing module 'design_1_gige_dual_speed_top_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_gige_dual_speed_top_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_gige_dual_speed_top_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_gige_dual_speed_top_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'xgmii_txd' of module 'design_1_gige_dual_speed_top_0_0' is unconnected for instance 'gige_dual_speed_top_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:273]
+WARNING: [Synth 8-7071] port 'xgmii_txc' of module 'design_1_gige_dual_speed_top_0_0' is unconnected for instance 'gige_dual_speed_top_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:273]
+WARNING: [Synth 8-7023] instance 'gige_dual_speed_top_0' of module 'design_1_gige_dual_speed_top_0_0' has 43 connections declared, but only 41 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:273]
+INFO: [Synth 8-6157] synthesizing module 'design_1_psr_100m_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_100m_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_psr_100m_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_100m_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_psr_100m_0' is unconnected for instance 'psr_100m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:315]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_psr_100m_0' is unconnected for instance 'psr_100m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:315]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_psr_100m_0' is unconnected for instance 'psr_100m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:315]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_psr_100m_0' is unconnected for instance 'psr_100m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:315]
+WARNING: [Synth 8-7023] instance 'psr_100m' of module 'design_1_psr_100m_0' has 10 connections declared, but only 6 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:315]
+INFO: [Synth 8-6157] synthesizing module 'design_1_psr_125m_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_125m_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_psr_125m_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_125m_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_psr_125m_0' is unconnected for instance 'psr_125m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:322]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_psr_125m_0' is unconnected for instance 'psr_125m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:322]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_psr_125m_0' is unconnected for instance 'psr_125m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:322]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'design_1_psr_125m_0' is unconnected for instance 'psr_125m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:322]
+WARNING: [Synth 8-7023] instance 'psr_125m' of module 'design_1_psr_125m_0' has 10 connections declared, but only 6 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:322]
+INFO: [Synth 8-6157] synthesizing module 'design_1_psr_156m_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_156m_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_psr_156m_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_156m_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_psr_156m_0' is unconnected for instance 'psr_156m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:329]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_psr_156m_0' is unconnected for instance 'psr_156m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:329]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_psr_156m_0' is unconnected for instance 'psr_156m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:329]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'design_1_psr_156m_0' is unconnected for instance 'psr_156m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:329]
+WARNING: [Synth 8-7023] instance 'psr_156m' of module 'design_1_psr_156m_0' has 10 connections declared, but only 6 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:329]
+INFO: [Synth 8-6157] synthesizing module 'design_1_psr_200m_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_200m_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_psr_200m_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_psr_200m_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_psr_200m_0' is unconnected for instance 'psr_200m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:336]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_psr_200m_0' is unconnected for instance 'psr_200m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:336]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_psr_200m_0' is unconnected for instance 'psr_200m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:336]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_psr_200m_0' is unconnected for instance 'psr_200m' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:336]
+WARNING: [Synth 8-7023] instance 'psr_200m' of module 'design_1_psr_200m_0' has 10 connections declared, but only 6 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:336]
+INFO: [Synth 8-6157] synthesizing module 'design_1_smartconnect_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_smartconnect_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_smartconnect_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M01_AXI_awprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:343]
+WARNING: [Synth 8-7071] port 'M01_AXI_arprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:343]
+WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'design_1_smartconnect_0_0' has 79 connections declared, but only 77 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:343]
+INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (0#1) [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/.Xil/Vivado-42868-REED-MVOT/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'pl_clk0' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:421]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'design_1_zynq_ultra_ps_e_0_0' has 42 connections declared, but only 41 given [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:421]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1931.848 ; gain = 286.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1931.848 ; gain = 286.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1931.848 ; gain = 286.125
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1931.848 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0_3/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1946.652 ; gain = 0.051
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0_3/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0_2/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0_2/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0_3/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_0_3/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_2_0_2/design_1_clk_wiz_2_0/design_1_clk_wiz_2_0_in_context.xdc] for cell 'design_1_i/clk_wiz_2'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_2_0_2/design_1_clk_wiz_2_0/design_1_clk_wiz_2_0_in_context.xdc] for cell 'design_1_i/clk_wiz_2'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_100m_0_2/design_1_psr_100m_0/design_1_proc_sys_reset_0_1_in_context.xdc] for cell 'design_1_i/psr_100m'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_100m_0_2/design_1_psr_100m_0/design_1_proc_sys_reset_0_1_in_context.xdc] for cell 'design_1_i/psr_100m'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_125m_0_2/design_1_psr_125m_0/design_1_proc_sys_reset_1_1_in_context.xdc] for cell 'design_1_i/psr_125m'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_125m_0_2/design_1_psr_125m_0/design_1_proc_sys_reset_1_1_in_context.xdc] for cell 'design_1_i/psr_125m'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_156m_0_2/design_1_psr_156m_0/design_1_proc_sys_reset_1_0_in_context.xdc] for cell 'design_1_i/psr_156m'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_156m_0_2/design_1_psr_156m_0/design_1_proc_sys_reset_1_0_in_context.xdc] for cell 'design_1_i/psr_156m'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_200m_0_2/design_1_psr_200m_0/design_1_psr_200m_0_in_context.xdc] for cell 'design_1_i/psr_200m'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_psr_200m_0_2/design_1_psr_200m_0/design_1_psr_200m_0_in_context.xdc] for cell 'design_1_i/psr_200m'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0_3/design_1_smartconnect_0_0/design_1_smartconnect_0_0_in_context.xdc] for cell 'design_1_i/smartconnect_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0_3/design_1_smartconnect_0_0/design_1_smartconnect_0_0_in_context.xdc] for cell 'design_1_i/smartconnect_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_axi_clk_conv_0_0_1/design_1_axi_clk_conv_0_0/design_1_axi_clk_conv_0_0_in_context.xdc] for cell 'design_1_i/axi_clk_conv_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_axi_clk_conv_0_0_1/design_1_axi_clk_conv_0_0/design_1_axi_clk_conv_0_0_in_context.xdc] for cell 'design_1_i/axi_clk_conv_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_gige_dual_speed_top_0_0_2/design_1_gige_dual_speed_top_0_0/design_1_gige_dual_speed_top_0_0_in_context.xdc] for cell 'design_1_i/gige_dual_speed_top_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_gige_dual_speed_top_0_0_2/design_1_gige_dual_speed_top_0_0/design_1_gige_dual_speed_top_0_0_in_context.xdc] for cell 'design_1_i/gige_dual_speed_top_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_axis_data_fifo_0_0_3/design_1_axis_data_fifo_0_0/design_1_axis_data_fifo_0_0_in_context.xdc] for cell 'design_1_i/axis_data_fifo_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_axis_data_fifo_0_0_3/design_1_axis_data_fifo_0_0/design_1_axis_data_fifo_0_0_in_context.xdc] for cell 'design_1_i/axis_data_fifo_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_0_2/design_1_axis_dwidth_converter_0_0/design_1_axis_dwidth_converter_0_0_in_context.xdc] for cell 'design_1_i/axis_dwidth_converter_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_0_2/design_1_axis_dwidth_converter_0_0/design_1_axis_dwidth_converter_0_0_in_context.xdc] for cell 'design_1_i/axis_dwidth_converter_0'
+Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_brenner_accel_0_0_3/design_1_brenner_accel_0_0/design_1_brenner_accel_0_0_in_context.xdc] for cell 'design_1_i/brenner_accel_0'
+Finished Parsing XDC File [d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_brenner_accel_0_0_3/design_1_brenner_accel_0_0/design_1_brenner_accel_0_0_in_context.xdc] for cell 'design_1_i/brenner_accel_0'
+Parsing XDC File [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1946.676 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1946.676 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'design_1_i/brenner_accel_0' at clock pin 'ap_clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1946.781 ; gain = 301.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sfvc784-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1946.781 ; gain = 301.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_IN1_D_wiz2_clk_n. (constraint file  d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_2_0_2/design_1_clk_wiz_2_0/design_1_clk_wiz_2_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_IN1_D_wiz2_clk_n. (constraint file  d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_2_0_2/design_1_clk_wiz_2_0/design_1_clk_wiz_2_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_IN1_D_wiz2_clk_p. (constraint file  d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_2_0_2/design_1_clk_wiz_2_0/design_1_clk_wiz_2_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_IN1_D_wiz2_clk_p. (constraint file  d:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_2_0_2/design_1_clk_wiz_2_0/design_1_clk_wiz_2_0_in_context.xdc, line 6).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/psr_100m. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/psr_125m. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/psr_156m. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/psr_200m. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/smartconnect_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_clk_conv_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/gige_dual_speed_top_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axis_data_fifo_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axis_dwidth_converter_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/brenner_accel_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1946.781 ; gain = 301.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1946.781 ; gain = 301.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1946.781 ; gain = 301.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 2633.867 ; gain = 988.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 2633.867 ; gain = 988.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 2644.699 ; gain = 998.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------------+----------+
+|      |BlackBox name                      |Instances |
++------+-----------------------------------+----------+
+|1     |design_1_axi_clk_conv_0_0          |         1|
+|2     |design_1_axis_data_fifo_0_0        |         1|
+|3     |design_1_axis_dwidth_converter_0_0 |         1|
+|4     |design_1_brenner_accel_0_0         |         1|
+|5     |design_1_clk_wiz_0_0               |         1|
+|6     |design_1_clk_wiz_1_0               |         1|
+|7     |design_1_clk_wiz_2_0               |         1|
+|8     |design_1_gige_dual_speed_top_0_0   |         1|
+|9     |design_1_psr_100m_0                |         1|
+|10    |design_1_psr_125m_0                |         1|
+|11    |design_1_psr_156m_0                |         1|
+|12    |design_1_psr_200m_0                |         1|
+|13    |design_1_smartconnect_0_0          |         1|
+|14    |design_1_zynq_ultra_ps_e_0_0       |         1|
++------+-----------------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------------+------+
+|      |Cell                             |Count |
++------+---------------------------------+------+
+|1     |design_1_axi_clk_conv_0          |     1|
+|2     |design_1_axis_data_fifo_0        |     1|
+|3     |design_1_axis_dwidth_converter_0 |     1|
+|4     |design_1_brenner_accel_0         |     1|
+|5     |design_1_clk_wiz_0               |     1|
+|6     |design_1_clk_wiz_1               |     1|
+|7     |design_1_clk_wiz_2               |     1|
+|8     |design_1_gige_dual_speed_top_0   |     1|
+|9     |design_1_psr_100m                |     1|
+|10    |design_1_psr_125m                |     1|
+|11    |design_1_psr_156m                |     1|
+|12    |design_1_psr_200m                |     1|
+|13    |design_1_smartconnect_0          |     1|
+|14    |design_1_zynq_ultra_ps_e_0       |     1|
+|15    |IBUF                             |     7|
+|16    |OBUF                             |     7|
++------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 2861.031 ; gain = 1200.375
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.031 ; gain = 1215.309
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2861.031 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2861.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 7 instances
+
+Synth Design complete | Checksum: 7c9bfe36
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:57 . Memory (MB): peak = 2861.031 ; gain = 2175.918
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2861.031 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/FPGA_projects/GigE_HLS_Test/GigE_HLS_Test.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 17 21:03:43 2026...

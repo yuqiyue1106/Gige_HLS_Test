@@ -1,0 +1,247 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 19:42:25 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_0 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 22) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 19:32:36 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_gige_dual_speed_top_0_0 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0 (Rev. 22)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 18:19:49 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_0 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 17:42:05 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_0 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 17:20:50 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_brenner_accel_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_brenner_accel_0_0 (xilinx.com:hls:brenner_accel:1.0) from (Rev. 2114698973) to (Rev. 2114700919)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 09:13:01 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_1 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 09:03:47 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_1 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 09:00:29 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_1 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 5) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Fri Jul 17 08:49:49 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_1 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Thu Jul 16 08:54:01 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_brenner_accel_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_brenner_accel_0_0 (xilinx.com:hls:brenner_accel:1.0) from (Rev. 2114698042) to (Rev. 2114698973)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Wed Jul 15 20:39:38 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_gige_dual_speed_top_0_1 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0) from (Rev. 2) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Wed Jul 15 20:38:05 2026
+| Host         : REED-MVOT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-1-i
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_gige_dual_speed_top_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_gige_dual_speed_top_0_1 (xilinx.com:user:gige_dual_speed_top_wrapper:1.0 (Rev. 2)) to current project options.
+
